@@ -10,8 +10,8 @@ public class NumberGuessingGame {
     // Function that implements the
     // number guessing game
     public static void guessingNumberGame() {
-        try (// Scanner Class
-                Scanner sc = new Scanner(System.in)) {
+        // Scanner Class
+                Scanner sc = new Scanner(System.in)) 
             // Generate the numbers
             int number = 1 + (int) (100
                     * Math.random());
@@ -66,4 +66,3 @@ public class NumberGuessingGame {
         }
     }
 
-}
